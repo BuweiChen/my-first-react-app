@@ -1,12 +1,9 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import { Greeting } from './Greeting.jsx'
-import './index.css'
-import Person from './Person.jsx'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import Router from "./Router";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Greeting />
-    <Person />
-  </React.StrictMode>,
-)
+    <Router />
+  </React.StrictMode>
+);
